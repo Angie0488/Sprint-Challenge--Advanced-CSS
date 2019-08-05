@@ -25,3 +25,12 @@
     color: @porcelain;
     padding: 2% 3%;
 }
+
+// Animation Mixins
+.transition (@prop: all, @time: 2s, @ease: linear) {
+    transition: @prop @time @ease;
+   }
+
+.transform (@rotate: 90deg, @scale: 1, @skew: 1deg, @translate: 10px) {
+    transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+}

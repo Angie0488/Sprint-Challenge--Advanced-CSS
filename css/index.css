@@ -177,7 +177,9 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: fixed;
   background: #F6F6F6;
+  opacity: 0.6;
   padding: 1% 0;
   border-bottom: 2px solid #F1F1F1;
 }
@@ -195,6 +197,7 @@ p {
   font-weight: bold;
   margin-top: 2.5%;
   margin-left: 9%;
+  transition: all 0.5s ease-in;
 }
 @media (max-width: 500px) {
   .navigation nav {
@@ -321,6 +324,7 @@ footer {
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+  transform: rotate(5deg) scale(0.5) skew(1deg) translate(0px);
 }
 @media (max-width: 500px) {
   .home .walk .walk-img {
