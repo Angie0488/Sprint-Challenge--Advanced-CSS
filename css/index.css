@@ -190,11 +190,11 @@ p {
   font-size: 5rem;
 }
 .navigation nav {
-  width: 50%;
+  width: 75%;
   font-size: 1.75rem;
   font-weight: bold;
-  margin-top: 1%;
-  margin-left: 24%;
+  margin-top: 2.5%;
+  margin-left: 9%;
 }
 @media (max-width: 500px) {
   .navigation nav {
@@ -205,7 +205,7 @@ p {
 .navigation nav a {
   text-decoration: none;
   color: #454A59;
-  margin: 0 2%;
+  margin: 0 4%;
 }
 @media (max-width: 500px) {
   .navigation nav a {
@@ -223,6 +223,7 @@ footer {
   align-items: center;
 }
 .home .intro .headerImg {
+  width: 100%;
   border-radius: 5px;
 }
 @media (max-width: 500px) {
